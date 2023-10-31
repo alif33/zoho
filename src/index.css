@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primaryFont {
+  font-family: sans-serif;
+}
+
+.footer-opt {
+  @apply flex flex-wrap justify-center gap-2
+}
+
+.footer-opt span {
+  @apply flex gap-1 items-center text-secondaryBlueText border border-blue-400 py-1 px-1.5 rounded-sm text-xs cursor-pointer
+}
+
+.footer-opt span img {
+  @apply w-3;
+  color: #01bcfa;
+}
+
+.rm-scroll::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.shadowAll {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.privacyPolicyContainer a {
+  @apply text-sm;
+}
+
+.privacyPolicyContainer b {
+  @apply font-bold;
+}
+
+.privacyPolicyContainer div {
+  @apply flex flex-col;
+}
+
+.privacyPolicyContainer nav {
+  @apply text-2xl;
+}
+
+.privacyPolicyContainer span,
+li {
+  @apply text-sm font-thin;
+}
+
+.explore-categories {
+  width: 24rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease-in-out;
+  /* You can adjust the duration and timing function as needed */
+}
+
+.explore-categories-collapsed {
+  height: 2.75rem;
+}
+
+.explore-categories-expanded {
+  height: auto;
+}
+
+.downloadContainerLight {
+  background: linear-gradient(58deg, #ffecec, #f5f2ff);
+  border: 1px solid #faf0ff;
+}
+
+.downloadContainerDark {
+  background: linear-gradient(58deg, #200000, #090026);
+  border: 1px solid #4b0071;
+}
+
+.lightYellowGredientDark {
+  background: linear-gradient(0deg, #201100, #271d00 93%);
+  border: 1px solid #493a00;
+}
+
+.lightYellowGredientLight {
+  background: linear-gradient(0deg, #fff6ec, #fffcf3 93%);
+  border: 1px solid #493a00;
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
